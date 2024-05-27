@@ -85,4 +85,23 @@ public class ClientHandler implements Runnable{
             e.printStackTrace();
         }
     }
+
+//    public void closeEveryThing(){
+//
+//        try {
+//            if (objectInputStream != null){
+//                objectInputStream.close();
+//            }
+//            if (objectOutputStream != null) {
+//                objectOutputStream.close();
+//            }
+//            if (socketBetweenClientServer !=  null){
+//                socketBetweenClientServer.close();
+//            }
+//            removeClientHandler();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
+
 }
